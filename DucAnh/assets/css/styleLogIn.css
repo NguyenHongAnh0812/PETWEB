@@ -1,0 +1,64 @@
+.form__header-qr {
+    cursor: pointer;
+    opacity: 0.5;
+    color: red;
+}
+
+.form__button-signup-other {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-signup-other {
+    width: 30%;
+    height: 3em;
+    opacity: 0.8;
+}
+.button-signup-othe:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.form__forget-password {
+    position: relative;
+}
+
+.form__forget-password--left {
+    color: cornflowerblue;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.form__forget-password--right {
+    color: cornflowerblue;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+
+.content__background {
+    background: url(../img/introShoppe.png) no-repeat center /contain;
+}
+
+.form .form__header {
+    position: relative;
+}
+
+.form__header .form__header-icon {
+    transform: scale(2);
+    display: inline-block;
+    position: absolute;
+    right: 2em;
+}
+.form__header .form__header-icon a {
+    color: red;
+    text-decoration: none;
+}
+.form__header .form__header-rect {
+    display: inline-block;
+    color:#ffbf00;
+    font-size: 0.3em;
+    transform: translateY(-0.5em);
+}
