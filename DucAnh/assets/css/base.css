@@ -1,0 +1,30 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 1.6rem;
+    background-color: #fef6f5;
+}
+
+.col1 {
+    width: 100%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+.col3 {
+    width: 33.33%;
+}
