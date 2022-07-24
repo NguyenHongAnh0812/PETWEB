@@ -1,0 +1,138 @@
+.footer {
+    background-color: #fbfbfb;
+}
+
+.footer__content-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.footer__content-list_title {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, .54);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer__content-list-item {
+    margin: 0 0 2.5rem 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer__content-list_item {
+    margin-bottom: 1.2rem;
+}
+
+.footer__content-list-item-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .54);
+    font-size: 1.2rem;
+}
+
+.footer__content-list-item-link:hover {
+    color: #ee4d2d;
+}
+
+.footer__content-list-item-link-network {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .54);
+    display: flex;
+}
+
+.footer__content-list-item-link-network-icon {
+    margin-right: 8px;
+    color: #000;
+}
+
+.footer__link-dowload {
+    display: flex;
+}
+
+.img__qr-dowload {
+    border: 2px solid rgba(186, 186, 186, 0.54);
+    width: 8.4rem;
+    height: 8.4rem;
+    margin-right: 1.5rem;
+}
+
+.imgs__footer-dowload {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img__footer-dowload {
+    width: 8rem;
+    height: 2rem;
+}
+
+.footer__supple-list {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, .54);
+    padding: 2rem 0 4rem 0;
+}
+
+.footer__supple-list-right {
+    display: flex;
+    flex: 1;
+    font-size: 1.4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.footer__supple-list-left {
+    margin-right: 2.5rem;
+    font-size: 1.4rem;
+}
+
+.footer__supple-list-item {
+    padding: 0 0.5rem;
+    border-left: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__policy-list {
+    background-color: #f5f5f5;
+    padding-top: 42px;
+    padding-bottom: 37px;
+}
+
+.footer__policy-list-policy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer__policy-list-item {
+    padding: 0 2.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.6;
+    list-style: none;
+    border-left: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__policy-list-origin {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.footer__policy-list-text {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 8px;
+}
